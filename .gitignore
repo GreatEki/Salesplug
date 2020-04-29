@@ -1,3 +1,6 @@
-/node-modules
+/node_modules
 
-client/node-modules
+# this will ignore the node-modules sub-folder in the client folder
+
+client/node_modules
+
