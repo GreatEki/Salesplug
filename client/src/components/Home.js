@@ -37,7 +37,7 @@ const Home = () => {
 						<div className='card mt-3'>
 							<i className='fas fa-adjust fa-4x text-center'></i>
 							<p className='text-center'> Adaptable </p>
-							<span className='text-center py-2 px-5'>
+							<span className='text-center py-2 px-md-5'>
 								Sensitive and responsive to different nature of retail
 								businesses{' '}
 							</span>
@@ -49,7 +49,7 @@ const Home = () => {
 						<div className='card mt-3'>
 							<i className='fas fa-wrench fa-4x text-center'></i>
 							<p className='text-center'> Adjustable </p>
-							<span className='text-center py-2 px-5'>
+							<span className='text-center py-2 px-md-5'>
 								{' '}
 								Customisable to suit operational activites{' '}
 							</span>
@@ -61,7 +61,7 @@ const Home = () => {
 						<div className='card mt-3'>
 							<i className='fas fa-cog text-center fa-4x'></i>
 							<p className='text-center'> Service </p>
-							<span className='text-center py-2 px-5'>
+							<span className='text-center py-2 px-md-5'>
 								{' '}
 								Efficient Solutions to inhibitions of data integrity and data
 								flow
@@ -74,8 +74,31 @@ const Home = () => {
 					</div>
 				</div>
 
-				<div className='bg-success'>
-					<h1> Section 3 goes here </h1>
+				<div className='section-3 px-5 container-fluid '>
+					<div className='d-flex flex-md-row flex-column justify-content-between px-md-5'>
+						<div className='mr-md-5'>
+							<img
+								src='/webImages/counter.jpg'
+								className='counter-img img-fluid'
+								alt='counter-img'
+							/>
+						</div>
+
+						<div className='flex-fill pb-md-5'>
+							<h5> Designed for Start-ups and SMEs</h5>
+
+							<p>
+								{' '}
+								Just get the code and sit tight, you will witness its power and
+								performance in lead generations. Its simple and yet powerful and
+								productive technology. Experience then believe
+							</p>
+
+							<li> Write some feature here.</li>
+							<li> Repeat the same with another one</li>
+							<li> Complete the list with the last.</li>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
