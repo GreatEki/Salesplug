@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { StyleContext } from '../../contexts/StyleContext';
+import '../../css/Navbar.css';
 
 const Navbar = () => {
 	const { closeSlideMenu, styles, openSlideMenu } = useContext(StyleContext);

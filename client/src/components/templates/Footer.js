@@ -32,29 +32,80 @@ const Footer = () => {
 						<div className='row'>
 							<div className='footer-nav col-md-4'>
 								<span> New to Salesplug</span>
-								<Link className='d-block'> Products</Link>
-								<Link className='d-block'> Solutions</Link>
-								<Link className='d-block'> Events</Link>
-								<Link className='d-block'> Support</Link>
-								<Link className='d-block'> About</Link>
-								<Link className='d-block'> Contact Us</Link>
-								<Link className='d-block'> Get Started</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Products
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Solutions
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Events
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Support
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									About
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Contact Us
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Get Started
+								</Link>
 							</div>
 							<div className='col-md-4'>
 								<span> Technology Today</span>
-								<Link className='d-block'> What is Cloud Computing</Link>
-								<Link className='d-block'> Internet of things</Link>
-								<Link className='d-block'> Investors</Link>
-								<Link className='d-block'> Sustainability</Link>
-								<Link className='d-block'> Customer Stories</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									What is Cloud Computing
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Internet of things
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Investors
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Sustainability
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Customer Stories
+								</Link>
 							</div>
 							<div className='col-md-4'>
 								<span> Others</span>
-								<Link className='d-block'> Legal</Link>
-								<Link className='d-block'> Terms of Service</Link>
-								<Link className='d-block'> Privacy Information</Link>
-								<Link className='d-block'> Contact</Link>
-								<Link className='d-block'> Cookie Preference</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Legal
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Terms of Service
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Privacy Information
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Contact
+								</Link>
+								<Link to='/' className='d-block'>
+									{' '}
+									Cookie Preference
+								</Link>
 							</div>
 						</div>
 					</section>
