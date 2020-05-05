@@ -65,7 +65,7 @@
 }
 
 form .label {
-	font-family: var(--Roboto);
+	font-family: var(--Lato);
 	font-weight: bold;
 }
 
@@ -73,6 +73,12 @@ form .label {
 	margin-top: 120px;
 }
 
+.siteBtn {
+	background-color: var(--primary-color) !important;
+	color: white;
+}
+
+/*========== Medium  Screen sized devices ================*/
 @media (min-width: 768px) and (max-width: 1023px) {
 	.login-wrapper {
 		overflow: hidden;
@@ -96,6 +102,9 @@ form .label {
 	}
 }
 
+/*============== End of Medium Screen Sized Devices ==================*/
+
+/*=============== Small Screen Sized Devices ==============*/
 @media (min-width: 100px) and (max-width: 767px) {
 	.side-right {
 		display: none;
@@ -118,3 +127,5 @@ form .label {
 		margin: 0 22.5%;
 	}
 }
+
+/*================End of Small Screen Sized Devices ===================*/

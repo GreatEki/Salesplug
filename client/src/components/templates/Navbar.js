@@ -60,7 +60,7 @@ const Navbar = () => {
 							</Link>
 						</div>{' '}
 						<div className='d-inline px-2'>
-							<Link to='/' className='nav-auth'>
+							<Link to='/login' className='nav-auth'>
 								<i className='fas fa-user'> </i> Login
 							</Link>
 						</div>

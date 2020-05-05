@@ -15,7 +15,7 @@ const BusinessAuth = () => {
 					<div className='card bg-white'>
 						<form className='form px-4'>
 							<div className='form-group'>
-								<label htmlFor='username' className='label text-muted'>
+								<label htmlFor='username' className='label'>
 									{' '}
 									Username
 								</label>
@@ -23,7 +23,7 @@ const BusinessAuth = () => {
 								<input type='text' name='username' className='form-control' />
 							</div>
 							<div className='form-group'>
-								<label htmlFor='password' className='label text-muted'>
+								<label htmlFor='password' className='label'>
 									{' '}
 									Password
 								</label>
@@ -32,13 +32,24 @@ const BusinessAuth = () => {
 							</div>
 
 							<div className='form-group'>
-								<button className='btn btn-block btn-primary'> Enter</button>
+								<input
+									type='checkbox'
+									ClassName='form-check-input'
+									name='keepMeSignedIn'
+								/>
+								<label htmlFor='keepMeSignedIn' className='text-muted'>
+									&nbsp; Keep me Signed In?{' '}
+								</label>
+							</div>
+
+							<div className='form-group'>
+								<button className='btn btn-block siteBtn'> Enter</button>
 							</div>
 						</form>
 
 						<Link to='/' className='px-4'>
 							{' '}
-							Forgot Password{' '}
+							Forgot Password?{' '}
 						</Link>
 					</div>
 					<p className='text-white text-center'>
