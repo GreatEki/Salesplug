@@ -14,3 +14,40 @@
 	float: left;
 	width: 100vw;
 }
+
+.pageContent {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.productListWrap {
+	height: 45vh;
+}
+
+/* This class makes the element vertically scrollable */
+.scrollable-child {
+	overflow-y: auto;
+}
+
+.productListing {
+	width: 100%;
+}
+.productListing li {
+	list-style: none;
+}
+
+.productListing a {
+	color: black;
+	font-family: var(--Abel);
+}
+
+.titleBar div {
+	padding: 10px 20px;
+}
+
+.titleBar p {
+	font-family: var(--Roboto);
+	color: var(--primary-color);
+	font-weight: bold;
+}

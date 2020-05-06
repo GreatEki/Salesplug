@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../css/SalesPitch.css';
+import '../../css/main/Inbound.css';
 import { Link } from 'react-router-dom';
 
 const Inbound = () => {
 	return (
 		<>
-			<div className='container-fluid wrapper bg-primary m-0 p-0'>
+			<div className='container-fluid wrapper m-0 p-0'>
 				<div className='topBar text-center'>SalesPlug</div>
 			</div>
 
@@ -48,7 +48,7 @@ const Inbound = () => {
 					<section className='col-md-10 pageBody p-0'>
 						<h2 className='pageTitle p-4'> Inbound</h2>
 
-						<div className='pageContent bg-light'>
+						<div className='pageContent'>
 							<section className='d-flex flex-row p-4'>
 								<button className='btn btn-info mr-5 rounded-0'>
 									{' '}
@@ -68,7 +68,8 @@ const Inbound = () => {
 								</div>
 							</section>
 							{/* =================Title Bar ==================================*/}
-							<section className='row p-2'>
+							<hr />
+							<section className='row p-2 titleBar bg-light'>
 								<div className='col-2'>
 									<p> Item ID</p>
 								</div>
@@ -85,37 +86,54 @@ const Inbound = () => {
 									<p> Qty in Stock</p>
 								</div>
 							</section>
+							<hr />
 							{/* =================End of Title Bar ==================================*/}
 
-							{/* ======================= Product Listing =========================== */}
-							<section className='row productListing'>
-								<div className='col-2'>
-									<li>
-										<Link> 100 </Link>
-									</li>
-								</div>
-								<div className='col-3'>
-									<li>
-										<Link> Pears Baby Lotion </Link>
-									</li>
-								</div>
-								<div className='col-3'>
-									<li>
-										<Link> Skin Care and Cosmetics </Link>
-									</li>
-								</div>
-								<div className='col-2'>
-									<li>
-										<Link> No </Link>
-									</li>
-								</div>
-								<div className='col-2'>
-									<li>
-										<Link> 20 </Link>
-									</li>
-								</div>
-							</section>
+							<div className='productListWrap scrollable-child p-2'>
+								{/* ======================= Product Listing =========================== */}
+								<section className='row productListing p-2'>
+									<div className='col-2'>
+										<li>
+											<Link to='/'> 100 </Link>
+										</li>
+									</div>
+									<div className='col-3'>
+										<li>
+											<Link to='/'> Pears Baby Lotion </Link>
+										</li>
+									</div>
+									<div className='col-3'>
+										<li>
+											<Link to='/'> Skin Care and Cosmetics </Link>
+										</li>
+									</div>
+									<div className='col-2'>
+										<li className='text-center'>
+											<Link to='/'> No </Link>
+										</li>
+									</div>
+									<div className='col-2'>
+										<li className='text-center'>
+											<Link to='/'> 20 </Link>
+										</li>
+									</div>
+								</section>
+
+								{/* ================= End of Product Listing =========================== */}
+							</div>
 						</div>
+
+						<section className='pageBottom'>
+							<nav className='pagination h-center w-25'>
+								<li className='page-item m-2 d-flex flex-row'>
+									<button className='page-link mr-3'> 1</button>
+									<button className='page-link mr-3'> 2</button>
+									<button className='page-link mr-3'> 3</button>
+									<button className='page-link mr-3'> 4</button>
+									<button className='page-link mr-3'> 5</button>
+								</li>
+							</nav>
+						</section>
 					</section>
 					{/*======================= End of Page Body Display Starts Here ============================*/}
 				</main>

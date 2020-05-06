@@ -4,7 +4,7 @@ import '../../css/main/SalesPitch.css';
 const SalesPitch = () => {
 	return (
 		<>
-			<div className='container-fluid wrapper bg-primary m-0 p-0'>
+			<div className='container-fluid wrapper m-0 p-0'>
 				<div className='topBar text-center'>SalesPlug</div>
 			</div>
 
@@ -114,12 +114,16 @@ const SalesPitch = () => {
 								{/*======================= ProductSummary ========================*/}
 								<section className='col-6 productsSummary p-5'>
 									<div className='w-75 itemList '>
-										<ul class='list-group'>
-											<li class='list-group-item'>Cras justo odio</li>
-											<li class='list-group-item'>Dapibus ac facilisis in</li>
-											<li class='list-group-item'>Morbi leo risus</li>
-											<li class='list-group-item'>Porta ac consectetur ac</li>
-											<li class='list-group-item'>Vestibulum at eros</li>
+										<ul className='list-group'>
+											<li className='list-group-item'>Cras justo odio</li>
+											<li className='list-group-item'>
+												Dapibus ac facilisis in
+											</li>
+											<li className='list-group-item'>Morbi leo risus</li>
+											<li className='list-group-item'>
+												Porta ac consectetur ac
+											</li>
+											<li className='list-group-item'>Vestibulum at eros</li>
 										</ul>
 									</div>
 
