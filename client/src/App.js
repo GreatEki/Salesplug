@@ -6,6 +6,7 @@ import BusinessAuth from './components/auth/BusinessAuth';
 import SalesPitch from './components/main/SalesPitch';
 import Inbound from './components/main/Inbound';
 import AddQty from './components/main/AddQty';
+import StorageAdmin from './components/main/storageAdmin/storeadminAuth';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 						<Route path='/sales-pitch' component={SalesPitch} />
 						<Route exact path='/inbound/add-qty' component={AddQty} />
 						<Route exact path='/inbound' component={Inbound} />
+						<Route exact path='/storage-admin' component={StorageAdmin} />
 					</StyleContextProvider>
 				</Switch>
 			</BrowserRouter>
