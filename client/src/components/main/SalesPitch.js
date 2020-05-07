@@ -70,7 +70,7 @@ const SalesPitch = () => {
 										</div>
 
 										<div className='form-group'>
-											<label htmFor='ItemCategory'> Item Category</label>
+											<label htmlFor='ItemCategory'> Item Category</label>
 
 											<input
 												type='text'
