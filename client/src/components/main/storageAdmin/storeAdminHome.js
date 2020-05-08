@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../css/main/Inbound.css';
+import '../../../css/main/Inbound.css';
 import { Link } from 'react-router-dom';
 
-const Inbound = () => {
+const storeAdminHome = () => {
 	return (
 		<>
 			<div className='container-fluid wrapper m-0 p-0'>
@@ -57,7 +57,7 @@ const Inbound = () => {
 					{/*======================= Page Body Display Starts Here ============================*/}
 
 					<section className='col-md-10 pageBody p-0'>
-						<h2 className='pageTitle p-4'> Inbound</h2>
+						<h2 className='pageTitle p-4'> Storage Admin</h2>
 
 						<div className='pageContent'>
 							<section className='d-flex flex-row p-4'>
@@ -78,13 +78,20 @@ const Inbound = () => {
 									</div>
 								</div>
 							</section>
+
+							{/* ================== Action Bar ======================= */}
+							<section className='p-2 actionBar'>
+								<div className='d-block mr-5'>
+									<Link to='/'>
+										{' '}
+										<i className='fas fa-arrow-right'></i> Add New Product{' '}
+									</Link>
+								</div>
+							</section>
+							{/* ================== End of Action Bar ======================= */}
+
 							{/* =================Title Bar ==================================*/}
 							<hr />
-
-							<small className='text-info ml-2'>
-								{' '}
-								Click on item to inbound{' '}
-							</small>
 							<section className='row p-2 titleBar bg-light'>
 								<div className='col-2'>
 									<p> Item ID</p>
@@ -104,38 +111,36 @@ const Inbound = () => {
 							</section>
 							<hr />
 							{/* =================End of Title Bar ==================================*/}
+
 							<div className='productListWrap scrollable-child p-2'>
 								{/* ======================= Product Listing =========================== */}
-								<Link to='/inbound/add-qty' className='row productListing p-2'>
+								<section className='row productListing p-2'>
 									<div className='col-2'>
 										<li>
-											<Link to='/inbound/add-qty'> 100 </Link>
+											<Link to='/'> 100 </Link>
 										</li>
 									</div>
 									<div className='col-3'>
 										<li>
-											<Link to='/inbound/add-qty'> Pears Baby Lotion </Link>
+											<Link to='/'> Pears Baby Lotion </Link>
 										</li>
 									</div>
 									<div className='col-3'>
 										<li>
-											<Link to='/inbound/add-qty'>
-												{' '}
-												Skin Care and Cosmetics{' '}
-											</Link>
+											<Link to='/'> Skin Care and Cosmetics </Link>
 										</li>
 									</div>
 									<div className='col-2'>
 										<li className='text-center'>
-											<Link to='/inbound/add-qty'> No </Link>
+											<Link to='/'> No </Link>
 										</li>
 									</div>
 									<div className='col-2'>
 										<li className='text-center'>
-											<Link to='/inbound/add-qty'> 20 </Link>
+											<Link to='/'> 20 </Link>
 										</li>
 									</div>
-								</Link>
+								</section>
 
 								{/* ================= End of Product Listing =========================== */}
 							</div>
@@ -160,4 +165,4 @@ const Inbound = () => {
 	);
 };
 
-export default Inbound;
+export default storeAdminHome;

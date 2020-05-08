@@ -22,7 +22,7 @@
 }
 
 .productListWrap {
-	height: 45vh;
+	height: 43vh;
 }
 
 /* This class makes the element vertically scrollable */
@@ -37,12 +37,16 @@
 	list-style: none;
 }
 
+.productListing:hover {
+	background-color: whitesmoke;
+}
+
 .productListing a {
 	color: black;
 	font-family: var(--Abel);
 }
 
-.titleBar div {
+.product .titleBar div {
 	padding: 10px 20px;
 }
 

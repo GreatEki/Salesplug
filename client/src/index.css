@@ -29,3 +29,36 @@ code {
 .h-center {
 	margin: 0 auto;
 }
+
+/* =================== Menu Nav =================== */
+.menuNav {
+	background-color: whitesmoke;
+	height: 100vh;
+	padding: 30px 40px;
+}
+
+.menuList {
+	margin-top: 25%;
+
+	padding: 0 20px;
+}
+
+.menuItem {
+	margin: 20px 0;
+	font-family: var(--Roboto);
+	font-size: 18px;
+}
+
+.content-wrapper .hamburger {
+	color: var(--primary-color);
+}
+
+.menuNav a {
+	color: var(--fade-black);
+}
+
+.menuNav a:hover {
+	color: var(--primary-color);
+}
+
+/* ================== End of Menu Nav ============== */

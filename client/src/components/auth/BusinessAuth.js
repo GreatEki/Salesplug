@@ -13,7 +13,7 @@ const BusinessAuth = () => {
 						className='d-block'
 					/>
 					<div className='card bg-white'>
-						<form className='form px-4'>
+						<form className='form px-4 pt-4'>
 							<div className='form-group'>
 								<label htmlFor='username' className='label'>
 									{' '}

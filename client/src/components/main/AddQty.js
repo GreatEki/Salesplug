@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../css/main/AddQty.css';
-
+import { Link } from 'react-router-dom';
 const AddQty = () => {
 	return (
 		<>
@@ -19,24 +19,35 @@ const AddQty = () => {
 						</div>
 						<div className='d-flex flex-column menuList'>
 							<li className='d-block menuItem'>
-								{' '}
-								<i className='fas fa-bars hamburger'></i> &nbsp; Sales Pitch{' '}
+								<Link to='/sales-pitch'>
+									{' '}
+									<i className='fas fa-bars hamburger'></i> &nbsp; Sales Pitch{' '}
+								</Link>
 							</li>
 							<li className='d-block menuItem'>
-								{' '}
-								<i className='fas fa-bars hamburger'></i> &nbsp; Inbound
+								<Link to='/inbound'>
+									{' '}
+									<i className='fas fa-bars hamburger'></i> &nbsp; Inbound
+								</Link>
 							</li>
 							<li className='d-block menuItem'>
-								{' '}
-								<i className='fas fa-bars hamburger'></i> &nbsp; Storage Admin
+								<Link to='/storage-admin'>
+									{' '}
+									<i className='fas fa-bars hamburger'></i> &nbsp; Storage Admin
+								</Link>
 							</li>
 							<li className='d-block menuItem'>
-								{' '}
-								<i className='fas fa-bars hamburger'></i> &nbsp; Report
+								<Link to='/report'>
+									{' '}
+									<i className='fas fa-bars hamburger'></i> &nbsp; Report
+								</Link>
 							</li>
 							<li className='d-block menuItem'>
-								{' '}
-								<i className='fas fa-bars hamburger'></i> &nbsp; Access Control{' '}
+								<Link to='/access-control'>
+									{' '}
+									<i className='fas fa-bars hamburger'></i> &nbsp; Access
+									Control{' '}
+								</Link>
 							</li>
 						</div>
 					</section>
@@ -47,7 +58,7 @@ const AddQty = () => {
 					<section className='col-md-10 pageBody p-0'>
 						<h2 className='pageTitle p-4'> Item Name </h2>
 
-						<div div className='pageContent addQty'>
+						<div className='pageContent addQty'>
 							<form className='w-50 h-center'>
 								<div className='form-group w-50'>
 									<label htmlFor='itemName'> Item Name </label>
@@ -81,9 +92,7 @@ const AddQty = () => {
 								<div className='form-group w-75'>
 									<label htmlFor='comment'> Comment(s)</label>
 
-									<textarea className='form-control' name='comment'>
-										{' '}
-									</textarea>
+									<textarea className='form-control' name='comment' />
 								</div>
 
 								<div className='form-group w-50 h-center'>

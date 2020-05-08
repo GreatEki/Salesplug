@@ -7,6 +7,7 @@ import SalesPitch from './components/main/SalesPitch';
 import Inbound from './components/main/Inbound';
 import AddQty from './components/main/AddQty';
 import StorageAdmin from './components/main/storageAdmin/storeadminAuth';
+import storeAdminHome from './components/main/storageAdmin/storeAdminHome';
 
 function App() {
 	return (
@@ -20,6 +21,11 @@ function App() {
 						<Route exact path='/inbound/add-qty' component={AddQty} />
 						<Route exact path='/inbound' component={Inbound} />
 						<Route exact path='/storage-admin' component={StorageAdmin} />
+						<Route
+							exact
+							path='/storage-admin/home'
+							component={storeAdminHome}
+						/>
 					</StyleContextProvider>
 				</Switch>
 			</BrowserRouter>
