@@ -30,6 +30,27 @@ code {
 	margin: 0 auto;
 }
 
+.Roboto {
+	font-family: var(--Roboto);
+}
+.Lato {
+	font-family: var(--Lato);
+}
+.Comic {
+	font-family: var(--ComicNueue);
+}
+.Abel {
+	font-family: var(--Abel);
+}
+.Amiri {
+	font-family: var(--Amiri);
+}
+
+.del {
+	text-decoration: line-through;
+	text-decoration-style: double;
+}
+
 /* =================== Menu Nav =================== */
 .menuNav {
 	background-color: whitesmoke;

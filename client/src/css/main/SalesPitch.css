@@ -44,11 +44,6 @@ h2.pageTitle {
 	font-weight: bold;
 }
 
-.del {
-	text-decoration: line-through;
-	text-decoration-style: double;
-}
-
 .itemList {
 	margin: 0 auto;
 }

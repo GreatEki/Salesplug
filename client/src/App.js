@@ -8,6 +8,10 @@ import Inbound from './components/main/Inbound';
 import AddQty from './components/main/AddQty';
 import StorageAdmin from './components/main/storageAdmin/storeadminAuth';
 import storeAdminHome from './components/main/storageAdmin/storeAdminHome';
+import reportAuth from './components/main/report/reportAuth';
+
+import reportSales from './components/main/report/reportSales';
+import reportInbound from './components/main/report/reportInbound';
 
 function App() {
 	return (
@@ -26,6 +30,9 @@ function App() {
 							path='/storage-admin/home'
 							component={storeAdminHome}
 						/>
+						<Route exact path='/report' component={reportAuth} />
+						<Route exact path='/report/sales' component={reportSales} />
+						<Route exact path='/report/inbound' component={reportInbound} />
 					</StyleContextProvider>
 				</Switch>
 			</BrowserRouter>

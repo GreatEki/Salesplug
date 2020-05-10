@@ -91,7 +91,7 @@ const SalesPitch = () => {
 											/>
 										</div>
 
-										<section className='d-flex flex-column align-items-start'>
+										<section className='d-flex flex-row align-items-start'>
 											<div className='form-group'>
 												<label htmlFor='itemPrice'>
 													<del className='del'>N </del> Price
@@ -100,10 +100,15 @@ const SalesPitch = () => {
 												<input type='text' className='form-control' />
 											</div>
 
-											<small className=''>
-												Date: <span> Mon, April, 2020</span>{' '}
-											</small>
+											<div className='form-group ml-5'>
+												<label htmlFor='itemQty'> Qty</label>
+
+												<input type='text' className='form-control' />
+											</div>
 										</section>
+										<small className=''>
+											Date: <span> Mon, April, 2020</span>{' '}
+										</small>
 
 										<div className='d-flex flex-row'>
 											<div className='form-group p-5'>

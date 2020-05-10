@@ -11,26 +11,26 @@
 }
 
 /* ===============StoreAdminAuth Component Styling===========  */
-.storeadminAuth {
+.authPages {
 	padding: 100px 0;
 }
 
-.storeadminAuth button {
+.authPages button {
 	background-color: var(--primary-color);
 	color: white;
 }
 
-.storeadminAuth h5 {
+.authPages h5 {
 	font-family: var(--Roboto);
 	color: var(--fade-black);
 }
 
-.storeadminAuth label {
+.authPages label {
 	font-family: var(--Abel);
 	color: var(--fade-black);
 }
 
-.storeadminAuth button {
+.authPages button {
 	background-color: var(--primary-color);
 	color: white;
 }
